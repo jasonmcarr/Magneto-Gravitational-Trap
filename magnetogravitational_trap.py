@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import curve_fit
 
-atmos = pd.read_csv('/Users/Katie/Desktop/2018-2019/PHSX444/Lab3/trajectory3.csv')
+atmos = pd.read_csv('placeholder.csv')
 atmos = atmos.loc[:, "x":"ep"]
 atmos = atmos.values
 
-lv = pd.read_csv('/Users/Katie/Desktop/2018-2019/PHSX444/Lab3/120mTorr_Low_Trajectory.csv')
+lv = pd.read_csv('placeholder2.csv')
 lv = lv.loc[:, "x":"ep"]
 lv = lv.values
 
-hv = pd.read_csv('/Users/Katie/Desktop/2018-2019/PHSX444/Lab3/1E-7Torr_High_Trajectory.csv')
+hv = pd.read_csv('placeholder3.csv')
 hv = hv.loc[:, "x":"ep"]
 hv = hv.values
 
